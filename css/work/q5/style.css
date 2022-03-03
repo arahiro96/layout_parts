@@ -1,5 +1,23 @@
 @charset "UTF-8";
 
+.q5inner_float::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.q5_float {
+  float:left;
+  width: 400px;
+  margin-left: 60px;
+}
+
+.q5_float:first-child{
+  margin-left: 0;
+}
+
+
+
 
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */

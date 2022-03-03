@@ -1,4 +1,34 @@
+
+
 @charset "UTF-8";
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.box {
+  float: left;
+  margin-left: 30px;
+  padding: 20px;
+  width: 300px;
+  background-color: #3274ae;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.box:first-child {
+  margin: 0;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 16px;
+  border: 10px solid #022336;
+  background-color: #eaf4ff;
+  padding: 20px;
+}
 
 
 /* q1が終わったら

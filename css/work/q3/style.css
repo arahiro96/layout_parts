@@ -1,5 +1,108 @@
 @charset "UTF-8";
 
+.q3_box {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color: #ecf1f2;
+  position: relative;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 100px;
+  z-index: -10;
+}
+
+.box8 {
+  height: 100px;
+  width: 100px;
+  background-color: #de70cf;
+  position: absolute;
+  top:120px;
+  left:120px;
+  z-index:  8;
+}
+
+.box8:after{
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color:  #ffefd3;
+}
+
+.box1 {
+  height: 100px;
+  width: 100px;
+  background-color: #ffefd3;
+  position: absolute;
+  top:40px;
+  left:200px;
+  z-index: 1;
+}
+
+.box7{
+  height: 100px;
+  width:100px;
+  background-color:#deae70;
+  position: absolute;
+  top: 200px;
+  left:40px;
+  z-index:7;
+}
+
+.box6 {
+  height: 100px;
+  width:100px;
+  background-color:#fffee4;
+  position: absolute;
+  bottom: 120px;
+  left: 120px;
+  z-index: 6;
+}
+
+.box5 {
+  height: 100px;
+  width: 100px;
+  background-color:#9fd6d2;
+  position: absolute;
+  bottom:40px;
+  left: 200px;
+  z-index: 5;
+
+}
+
+.box4 {
+  height: 100px;
+  width: 100px;
+  background-color:#8b7a5e;
+  position: absolute;
+  bottom:120px;
+  right: 120px;
+  z-index: 4;
+}
+
+.box3 {
+  height: 100px;
+  width:100px;
+  background-color :#d0ecea;
+  position: absolute;
+  top: 200px;
+  right:40px;
+  z-index: 3;
+}
+
+.box2 {
+  height: 100px;
+  width: 100px;
+  background-color: #7084de;
+  position: absolute;
+  top:120px;
+  right:120px;
+  z-index: 2;
+}
 
 /* q3が終わったら
 q4のcssはq4フォルダの中のcssファイルに記述してください */

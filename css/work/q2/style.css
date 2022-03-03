@@ -1,5 +1,52 @@
 @charset "UTF-8";
 
+table {
+  width: 100%;
+  border: solid 1px;
+  table-layout: fixed;
+}
+  
+th {
+  border: solid 1px;
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #2244aa;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+tr {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  
+}
+  
+
+td {
+  border: solid 1px;
+  font-size:16px;
+  line-height: 22px;
+  padding:10px;
+  text-align: center;
+}
+
+
+tr:last-child {
+  border-top: 2px dashed #000;
+}
+
+tr:nth-child(3) {
+  background-color: #ecf1f2;
+}
+tr:nth-child(5) {
+  background-color: #ecf1f2;
+}
+
+tr:nth-child(6){
+  background-color: #dedede;
+}
 
 /* q2が終わったら
 q3のcssはq3フォルダの中のcssファイルに記述してください */
