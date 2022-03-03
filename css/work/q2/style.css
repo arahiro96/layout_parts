@@ -3,11 +3,15 @@
 table {
   width: 100%;
   border: solid 1px;
+  border-width: thin;
+  border-color:#dedede;
   table-layout: fixed;
 }
   
 th {
   border: solid 1px;
+  border-width: thin;
+  border-color: #dedede;
   font-size: 18px;
   line-height: 26px;
   background-color: #2244aa;
@@ -26,6 +30,8 @@ tr {
 
 td {
   border: solid 1px;
+  border-width: thin;
+  border-color:#dedede;
   font-size:16px;
   line-height: 22px;
   padding:10px;
@@ -44,9 +50,7 @@ tr:nth-child(5) {
   background-color: #ecf1f2;
 }
 
-tr:nth-child(6){
-  background-color: #dedede;
-}
+
 
 /* q2が終わったら
 q3のcssはq3フォルダの中のcssファイルに記述してください */

@@ -6,11 +6,16 @@
   height: 500px;
   background-color: #ecf1f2;
   position: relative;
-  font-size: 60px;
+  font-size: 30px;
   text-align: center;
-  font-weight: bold;
+  font-weight:bold;
   line-height: 100px;
   z-index: -10;
+}
+.q3_box:after {
+  display: block;
+  content: "";
+  clear: both;
 }
 
 .box8 {
@@ -103,6 +108,20 @@
   right:120px;
   z-index: 2;
 }
+
+.q3_fix {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.page-top {
+  display: inline-block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+  
 
 /* q3が終わったら
 q4のcssはq4フォルダの中のcssファイルに記述してください */
