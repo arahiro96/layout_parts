@@ -28,7 +28,7 @@
   background-color: #de70cf;
   top:120px;
   left:120px;
-  z-index: 8;
+  z-index: 80;
 }
 
 .box8:after{
@@ -45,28 +45,28 @@
   background-color: #ffefd3;
   top:40px;
   left:200px;
-  z-index: 1;
+  z-index: 10;
 }
 
 .box7 {
   background-color:#deae70;
   top: 200px;
   left:40px;
-  z-index:7;
+  z-index:70;
 }
 
 .box6 {
   background-color:#fffee4;
   bottom: 120px;
   left: 120px;
-  z-index: 6;
+  z-index: 60;
 }
 
 .box5 {
   background-color:#9fd6d2;
   bottom:40px;
   left: 200px;
-  z-index: 5;
+  z-index: 50;
 
 }
 
@@ -74,21 +74,21 @@
   background-color:#8b7a5e;
   bottom:120px;
   right: 120px;
-  z-index: 4;
+  z-index: 40;
 }
 
 .box3 {
   background-color :#d0ecea;
   top: 200px;
   right:40px;
-  z-index: 3;
+  z-index: 30;
 }
 
 .box2 {
   background-color: #7084de;
   top:120px;
   right:120px;
-  z-index: 2;
+  z-index: 20;
 }
 
 .q3_fix {

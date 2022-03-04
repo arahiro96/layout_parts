@@ -1,5 +1,50 @@
 @charset "UTF-8";
 
+.car_parent {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  }
+
+.hover_zoom {
+  display: inline-block;
+}
+
+.hover_zoom img {
+  width: 300px;
+  height: 200px;
+  padding-left: 0;
+}
+
+.hover_zoom img:hover {
+ 
+  transform: scale(1.2);
+}
+
+.hover_word {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+}
+  
+
+.hover_word img {
+  width: 300px;
+  height: 200px;
+  padding-left: 50px;
+}
+
+.hover_word:after {
+
+}
+
+
+
+
+
+
+
 
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */
