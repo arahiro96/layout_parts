@@ -24,10 +24,8 @@
   font-size: 18px;
   line-height: 26px;
   text-align: center;
-  
 }
   
-
 .table td {
   border: solid 1px;
   border-width: thin;
@@ -38,12 +36,11 @@
   text-align: center;
 }
 
-
-.table tr:last-child {
+.table tbody tr:last-child {
   border-top: 2px dashed #000;
 }
 
-.table tr:nth-child(odd) {
+.table tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 

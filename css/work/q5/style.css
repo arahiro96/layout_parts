@@ -29,12 +29,13 @@
 .q5_table_cell {
   display: table-cell;
   background-color: white;
+  padding:20px;
 }
   
 
-.q5_table_cell:first-child {
-  margin-left: 60px;
-}
+/* .q5_table_cell:first-child {
+  
+} */
 
 .q5_table_p {
   display: inline-block;
@@ -80,15 +81,20 @@
 }
 
 
+
+
 .q5_calc_parent {
-  display: flex;
+  width: 100%;
+  font-size: 0;
+  box-sizing: border-box;
 }
 
 .q5_calc_p {
-  width: calc(33.33% - 13px)/3;
+  display: inline-block;
+  width: calc((100% - 30px) / 3);
+  margin-left: 10px;
 }
   
-
 .q5_calc_p:first-child {
   margin-left: 0;
 }
