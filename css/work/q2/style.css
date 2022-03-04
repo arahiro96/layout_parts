@@ -8,7 +8,7 @@ table {
   table-layout: fixed;
 }
   
-th {
+.table th {
   border: solid 1px;
   border-width: thin;
   border-color: #dedede;
@@ -20,7 +20,7 @@ th {
   padding: 10px;
 }
 
-tr {
+.table tr {
   font-size: 18px;
   line-height: 26px;
   text-align: center;
@@ -28,7 +28,7 @@ tr {
 }
   
 
-td {
+.table td {
   border: solid 1px;
   border-width: thin;
   border-color:#dedede;
@@ -39,16 +39,14 @@ td {
 }
 
 
-tr:last-child {
+.table tr:last-child {
   border-top: 2px dashed #000;
 }
 
-tr:nth-child(3) {
+.table tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
-tr:nth-child(5) {
-  background-color: #ecf1f2;
-}
+
 
 
 
