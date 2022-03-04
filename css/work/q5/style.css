@@ -25,25 +25,19 @@
   border-spacing: 30px;
 }
   
-  
 .q5_table_cell {
   display: table-cell;
   background-color: white;
   padding:20px;
 }
   
-
-/* .q5_table_cell:first-child {
-  
-} */
-
 .q5_table_p {
   display: inline-block;
   font-size: 12px;
   line-height: 24px;
 }
-  
 
+  /* インラインによる横並び */
 .q5_inline_parent {
   width: 100%;
   font-size: 0;
@@ -55,7 +49,6 @@
   box-sizing: border-box;
 }
   
-
 .q5_inline:first-child {
   margin-left: 0;
 }
@@ -64,9 +57,7 @@
   margin-left: 60px;
 }
 
-
-
-
+/* フレックスによる横並び */
 .q5_flex_parent {
   display: flex;
 }
@@ -80,10 +71,11 @@
   margin-left: 0;
 }
 
+/* Calcによる横並び */
 .q5_calc_parent {
   width: 100%;
   font-size: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 .q5_calc_p {
