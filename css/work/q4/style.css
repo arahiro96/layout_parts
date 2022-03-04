@@ -13,11 +13,8 @@
   text-align: center;
 }
 
-
-
-.q4_white_table{
+.q4_white_table {
   display: table;
-  
 }
 
 .q4_table {
@@ -30,9 +27,6 @@
 .q4table_p {
   display: inline-block;
 }
-
-
-
 
 .q4_white_flex {
   justify-content: center;
