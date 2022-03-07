@@ -14,26 +14,28 @@
   word-break: break-all;
 }
 
+.q7_border::before,
 .q7_border::after {
-  content: "";
   position: absolute;
-  bottom: 30px;
-  left: -30px;
-  border: 15px solid transparent;
+  content: "";
+}
+
+.q7_border::after {
+  bottom: 25px;
+  left: -38px;
+  border: 20px solid transparent;
   border-right: 20px solid #FFF;
 }
   
 .q7_border::before {
-  content: "";
-  position: absolute;
   bottom: 25px;
-  left:-40px;
+  left:-45px;
   border: 20px solid transparent;
   border-right: 20px solid #222;
 }
  
 .q7_pic {
-  margin-top: 100px;
+  margin-top: 105px;
 }
 
 .q7_p {
