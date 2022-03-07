@@ -2,7 +2,6 @@
 
 .car_parent {
   width: 100%;
-  height: 100%;
   justify-content: center;
   display: flex;
 }
@@ -10,19 +9,17 @@
 .hover_zoom {
   width: 300px;
   height: 200px;
-  display: inline-block;
-  margin-right: 25px;
   overflow: hidden;
 }
 
 .hover_zoom img {
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   transition-duration: 0.3s;
 }
 
 .hover_zoom img:hover {
-  transform: scale(1.2);
+  transform: scale(1.4);
   transition-duration: 0.3s;
 }
  
@@ -30,41 +27,43 @@
 .hover_word {
   width: 300px;
   height:200px;
-  display: inline-block;
   position: relative;
   overflow: hidden;
-  margin-left: 25px;
+  margin-left: 50px;
 }
-  
-
-.hover_word img {
-  position: relative;
+ 
+.hover_img {
   width: 100%;
-  height: 200px;
-}
+  height: 100%;
+  transition: all .3s;
+  }
   
-.hover_word img:hover {
-  
-  opacity: 1;
-  padding-bottom: 20px;
-}
-
+.hover_word:hover .hover_text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  }
 
 .hover_text {
-  margin-left: 30px;
-  width: 300px;
-  height: 200px;
-  /* position: absolute; */
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  padding-bottom: 0;
-}
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(rgba(0,0,0,0), rgba(0, 0, 0,.8));
+  transition: all .3s;
+  }
 
-
-
-
-
-
+  .hover_text p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    word-break: break-all;
+    padding: 20px;
+    width: 100%;
+    color: #FFF;
+  }
 
 .scroll_text_parent {
   display: block;
@@ -76,7 +75,6 @@
 }
 
 .scroll_text_child {
-  display: inline-block;
   color:black;
   font-size:200px;
   padding-left: 100%;
@@ -92,7 +90,6 @@
     transform: translateX(-100%);
   }
 }
-
 
 
 

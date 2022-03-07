@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* floatによる横並び */
-.q5inner_float::after{
+.clearfix::after{
   display: block;
   content: "";
   clear: both;
@@ -21,22 +21,24 @@
 .q5_table {
   width: 100%;
   display: table;
-  border-collapse: separate;
-  border-spacing: 30px;
-}
+  }
   
 .q5_table_cell {
   display: table-cell;
-  background-color: white;
-  padding:20px;
+  padding-left: 60px;
 }
   
+ .q5_table_cell:first-child {
+   padding-left: 0px;
+ }
+  
 .q5_table_p {
-  display: inline-block;
   font-size: 12px;
   line-height: 24px;
+  background-color: white;
+  padding: 10px;
 }
-
+ 
   /* インラインによる横並び */
 .q5_inline_parent {
   width: 100%;
@@ -80,8 +82,8 @@
 
 .q5_calc_p {
   display: inline-block;
-  width: calc((100% - 30px) / 3);
-  margin-left: 10px;
+  width: calc((100% - 50px) / 3);
+  margin-left: 25px;
 }
   
 .q5_calc_p:first-child {
