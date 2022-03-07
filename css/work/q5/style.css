@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* floatによる横並び */
+
 .clearfix::after{
   display: block;
   content: "";
@@ -49,14 +50,11 @@
   display: inline-block;
   width: 400px;
   box-sizing: border-box;
+  margin-left: 60px;
 }
   
 .q5_inline:first-child {
   margin-left: 0;
-}
-
-.q5_inline:nth-child(2) {
-  margin-left: 60px;
 }
 
 /* フレックスによる横並び */
@@ -77,7 +75,6 @@
 .q5_calc_parent {
   width: 100%;
   font-size: 0;
-  /* box-sizing: border-box; */
 }
 
 .q5_calc_p {
@@ -90,17 +87,5 @@
   margin-left: 0;
 }
   
-
-
-  
-
-
-
-
-
-
-
-
-
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */

@@ -18,19 +18,18 @@
 .q7_border::after {
   position: absolute;
   content: "";
+  border: 20px solid transparent;
 }
 
 .q7_border::after {
   bottom: 25px;
   left: -38px;
-  border: 20px solid transparent;
   border-right: 20px solid #FFF;
 }
   
 .q7_border::before {
   bottom: 25px;
-  left:-45px;
-  border: 20px solid transparent;
+  left: -45px;
   border-right: 20px solid #222;
 }
  
